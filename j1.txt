@@ -1,0 +1,17 @@
+
+import java.util.*;
+class Transaction {
+    public static void main(String[] args) {
+        System.out.println("Transaction points");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        if (a >=100) { int b = 2 ;
+            int c = a-100;
+            int d = c*2;
+            if (a >=50) { System.out.print(d+50);}
+        }
+        else {
+            System.out.print("0");
+        }
+    }
+}
